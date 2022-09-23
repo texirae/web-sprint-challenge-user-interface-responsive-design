@@ -65,7 +65,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
-    color: rgb(225, 239, 230);
 }
 
 h1 {
@@ -95,13 +94,18 @@ header {
     text-align: center;
 }
 
-.title-container {
-    width: 100%;
-    height: 25%;
-    background-color: rgb(0, 4, 17, .8);  
+header a, header p {
+    color: rgb(225, 239, 230);
 }
 
-nav{
+.title-container {
+    width: 100%;
+    height: 22%;
+    background-color: rgb(0, 4, 17, .8);
+    color: rgb(225, 239, 230);  
+}
+
+.title-container nav{
     display: flex;
     justify-content: space-evenly;
 }
@@ -127,10 +131,13 @@ nav{
 
 /* gallery section */
 .gallery {
+    column-gap: 20%;
     width: 100%;
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    padding: 10rem;
+    color: rgb(225, 239, 230);
 }
 
 /* about us section */
@@ -142,6 +149,7 @@ nav{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
 
 .about-container {
@@ -169,6 +177,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
 
 .contact-container {
@@ -195,6 +204,10 @@ nav{
     justify-content: space-around;
 }
 
+.info a {
+    color: rgb(225, 239, 230);
+}
+
 .address {
     width: 25%;
 }
@@ -210,20 +223,53 @@ nav{
 
 /* footer section */
 footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     padding-top: 2.5vh;
     font-size: 3rem;
     background-color: rgb(0, 4, 17);
+}
+
+/*code to split sign up and nav bar*/
+.bottom-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: space-evenly;
+    align-items: baseline;
+}
+
+/*code for sign up input bar*/
+.signup-container{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signup-container h3 {
+    color: rgb(225, 239, 230);
+}
+
+nav.footer{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    color: rgb(225, 239, 230);
+}
+
+nav.footer a {
+    color: rgb(225, 239, 230);
 }
 
 .copyright{
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
 
 /* mobile media query */
