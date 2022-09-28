@@ -262,6 +262,7 @@ nav.footer a {
         flex-direction: column;
         justify-content: center;
         gap: 30px;
+        padding: 10%;
     }
 
     .menu h2, .menu h3, .menu h4, .menu p{
