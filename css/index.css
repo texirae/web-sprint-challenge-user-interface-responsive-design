@@ -257,14 +257,13 @@ footer {
     color: rgb(225, 239, 230);
 }
 
-nav.footer{
+.footer-menu {
+    width: 70%;
     display: flex;
-    width: 60%;
-    justify-content: space-evenly;
-    color: rgb(225, 239, 230);
+    justify-content: space-around;
 }
 
-nav.footer a {
+.footer-menu a {
     color: rgb(225, 239, 230);
 }
 

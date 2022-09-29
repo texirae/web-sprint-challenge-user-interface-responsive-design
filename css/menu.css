@@ -104,7 +104,7 @@ header {
     background-color: rgb(0, 4, 17, .8);  
 }
 
-nav{
+.menu-bar {
     display: flex;
     justify-content: space-evenly;
 }
